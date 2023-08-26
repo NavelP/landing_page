@@ -1,0 +1,147 @@
+/*styling the body*/
+
+/* universal selector to set all texts to this font family, font-size and weight*/
+
+*{
+    font-family: Arial, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#000000, #0364ad);
+    padding: 0px;
+}
+
+/* styling for the header*/
+header{
+    min-width: 100vw;
+    position:fixed; /* fixing the header containing our links*/
+    top:0; /* to the top whenever the page is scrolled */
+}
+
+/* styling for the links list*/
+header ul{
+    list-style-type: none;
+    float: right;
+    padding-right: 100px;
+}
+
+header ul li{
+    display: inline;
+    padding: 25px;
+}
+
+/* styling for the anchor elements*/
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* styling for the image*/
+.space-image img{
+    margin-top: 60px;
+    height: 35vw;
+    width: 100vw;
+    margin-left: -50px;
+}
+
+.space-image figcaption{
+    color: yellowgreen;
+    width: 100vw;
+    text-align: center;
+    margin-top: -30px;
+}
+
+/* styling for the landing page heading*/
+#landing-page-heading{
+    color: yellow;
+    width: 100vw;
+    text-align: center;
+    margin-top: -32%;
+}
+
+#footer-spacing{
+    height: 60vh;
+    width: 100vw;
+}
+
+/* styling the footer */
+footer{
+    margin-top: 2vh;
+    padding: 10px;
+    background-color: #000000;
+    min-width: 100vw;
+    margin-left: -20px;
+    padding-left: 50px;
+}
+
+#footer-text{
+    color: #ffffff;
+}
+
+#footer-icons {
+    list-style-type: none;
+}
+
+#footer-icons li{
+    display: inline;
+    padding: 10px;
+}
+
+#footer-icons li a{
+    text-decoration: none;
+}
+
+#footer-icons li a img{
+    width: 20px;
+    height: 20px;
+}
+
+/**************
+
+styling for the contact us form
+
+***************/
+.page-content-area{
+    background-color: #d5e5ec;
+    min-width: 100vw;
+    height: 33vw;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+form{
+    background-color: white;
+    width: 20vw;
+    margin-left: 40vw;
+    border-radius: 5px;
+    padding: 5px 10px 10px 10px;
+    margin-top: 15vh;
+}
+
+form h3{
+    color: rgb(65, 92, 82);
+    width: 20vw;
+    text-align: center;
+}
+
+label{
+    color: rgb(65, 92, 82);
+}
+
+form input{
+    width: 18vw;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+#send{
+    background-color: rgb(93, 209, 165);
+    color: white;
+    padding: 7px;
+    border: none;
+    margin-bottom: 5px;
+}
